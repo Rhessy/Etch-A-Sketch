@@ -1,0 +1,20 @@
+
+
+
+.container{
+    display: flex;
+    justify-content:flex-startS;
+    align-items: flex-start;
+
+    height: 800px;
+    width: 800px;
+    flex-grow: 1;
+    min-width: 0;
+    flex-wrap: wrap;
+}
+
+.pixel{
+    background-color: red;
+    height: 200px;
+    width: 200px;
+}

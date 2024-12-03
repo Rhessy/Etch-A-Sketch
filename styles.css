@@ -1,18 +1,27 @@
 
 
-
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .container{
     display: flex;
     justify-content:flex-startS;
     align-items: flex-start;
 
-    height: 800px;
-    width: 800px;
+    height: 600px;
+    width: 600px;
     flex-grow: 1;
     min-width: 0;
     flex-wrap: wrap;
+    border: solid 1px;
 }
 
-.pixel{
-    background-color: red;
+.controls{
+    display: flex;
+    align-items: center;
+    gap: 50px;
 }
+
